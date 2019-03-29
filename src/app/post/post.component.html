@@ -11,6 +11,6 @@
       <p><span>Link: </span><span><a href="{{post.link}}">Additional Details</a></span></p>
     </div>
     </div>
-    <button mat-stroked-button id = {{post.id}} (click)="showPost = !showPost">More</button>
+    <button mat-stroked-button id = {{post.id}} (click)="updateButtonState()">{{this.buttonText}}</button>
   </div>
 
