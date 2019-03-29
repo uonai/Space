@@ -13,6 +13,7 @@ export class AppComponent {
     'id': 1,
     'title': 'Uppakoma',
     'subTitle': 'A localized events platform (Technologies: ReactNative, .NET, MongoDB, Azure Cloud)',
+    'link': 'https://www.patreon.com/posts/introducing-u-25466849',
     'technologies': [
       {
         id: 1,
@@ -32,6 +33,7 @@ export class AppComponent {
     'id': 2,
     'title': 'Hydra',
     'subTitle': 'An IoT cloud platform (Technologies: Angular, .NET, Azure Cloud)',
+    'link': '',
     'technologies': [
       {
         id: 1,

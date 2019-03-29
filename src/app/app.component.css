@@ -9,10 +9,13 @@
     border-radius: 0px;
     border-color: #000;
     border-width: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-p {
-    font-family: 'PT Serif', serif;
+.gps-coordinates {
+    opacity: 0.3;
+    font-style: italic;
 }
 
 ul {
@@ -30,8 +33,7 @@ li{
 @media (min-width: 600px) {
 
 .pulse-container {
-    margin-top: 20px;
-    margin-left: 170px;
+    margin-left: 145px;
     z-index:-1;
     position: relative;
     background: #45453f;
