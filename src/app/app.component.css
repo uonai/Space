@@ -5,6 +5,8 @@ ul {
 li{
     display: inline;  
     padding-right: 1em;
+    padding-bottom: 1em;
+    float: left;
 }
 
 

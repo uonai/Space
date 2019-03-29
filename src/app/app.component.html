@@ -10,17 +10,17 @@
   <span class ="subtext">Lat/Long: 41.974489, -87.689457</span>
 </div>
 
-<h1>Colin.S.McCaleb is a Chicago-based developer interested in the intersections of <b>programming</b>, data privacy, and global sustainability.</h1>
+<h1>Colin.S.McCaleb is a Chicago-based full-stack developer working at the intersection of Cloud Application Development, IoT, and Distributed Systems.</h1>
 <span class="subtext">Uonai: tr.(Lojban) Incompleteness</span><br />
 <span class="subtext">Space: a continuous area or expanse which is free, available, or unoccupied.</span>
 <img src = "../assets/images/profile.jpg" width="200" style="opacity:0.9; display: none;"> 
-<h2>Current Projects:</h2>
+<h2>Current Projects</h2>
 <p>Below are a list of projects I've been working on from 2018 - present. My primary focus from a technology standpoint is JavaScript (Front-End Frameworks, NodeJS, and ES6), and C#/ASP.NET. I focus on cloud technologies professionally and have a novice interest in decentralized solutions.</p>
 <div *ngFor="let post of posts">
-<app-post [title]="post.title" [subTitle]="post.subTitle" [id]="post.id"></app-post>
+<app-post [post]="post"></app-post>
 </div>
 
-<h2>Social Links:</h2>
+<h2>Social Links</h2>
 <ul>
   <li><button mat-stroked-button>GitHub</button></li>
   <li><button mat-stroked-button>Twitter</button></li>

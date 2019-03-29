@@ -13,7 +13,10 @@ export class AppComponent {
     {
     'id': 1,
     'title': 'Uppakoma',
+    'date': '2018 - present',
+    'state': 'In Development',
     'subTitle': 'A localized events platform (Technologies: ReactNative, .NET, MongoDB, Azure Cloud)',
+    'postDetails': 'PostDetails',
     'link': 'https://www.patreon.com/posts/introducing-u-25466849',
     'technologies': [
       {
@@ -32,9 +35,12 @@ export class AppComponent {
   },
   {
     'id': 2,
-    'title': 'Hydra',
+    'title': 'Ecolab3D',
+    'date': '2018 - present',
+    'state': 'Beta',
     'subTitle': 'An IoT cloud platform (Technologies: Angular, .NET, Azure Cloud)',
-    'link': '',
+    'postDetails': 'Collects data from remote sensors, automation tools and other systems by leveraging Microsoft’s secure Azure cloud platform.',
+    'link': 'https://newsroom.accenture.com/news/nalco-champion-teams-with-accenture-and-microsoft-to-launch-digital-platform-for-downstream-oil-and-gas-customers.htm',
     'technologies': [
       {
         id: 1,
@@ -53,7 +59,11 @@ export class AppComponent {
   {
     'id': 3,
     'title': 'Vitae',
+    'date': '2019 - present',
+    'state': 'In Development',
     'subTitle': 'A dashboard for showing real-time fitness gains (Technologies: Angular, .NET, SQL Server, Azure Cloud)',
+    'postDetails': 'PostDetails',
+    'link': '',
     'technologies': [
       {
         id: 1,

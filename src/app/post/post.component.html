@@ -1,7 +1,16 @@
 
   <div>
-    <h3>{{title}}</h3>
-    <p>{{subTitle}}</p>
-    <button mat-stroked-button id = {{id}}>More</button>
+    <h3>{{post.title}}</h3>
+    <p>{{post.subTitle}}</p>
+    
+    <div *ngIf="showPost">
+      <p>{{post.date}}</p>
+      <p>{{post.state}}</p>
+      <p>{{post.postDetails}}</p>
+      <div *ngIf="link">
+      <p><span>Link: </span><span><a href="{{post.link}}">Additional Details</a></span></p>
+    </div>
+    </div>
+    <button mat-stroked-button id = {{post.id}} (click)="showPost = !showPost">More</button>
   </div>
 

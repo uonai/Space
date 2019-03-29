@@ -6,12 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-  @Input() title = '';
-  @Input() subTitle = '';
-  @Input() id = '';
+  @Input() post = [];
+  showPost:boolean = false;
   constructor() { }
 
   ngOnInit() {
+    console.log(this.post);
   }
 
 }
