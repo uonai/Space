@@ -2,9 +2,14 @@
 
 
 <div>
-
-<span class="subtext">Uonai: tr.(Lojban) Incompleteness</span><br />
+  <div class = "topContainer">
+  <div class= "pulse-container">
+    <div class="dot"></div>
+    <div class="pulse"></div>
+  </div>
+  <span class="subtext">Uonai: tr.(Lojban) Incompleteness</span><br />
 <span class="subtext">Space: a continuous area or expanse which is free, available, or unoccupied.</span>
+</div>
 
 <h1>Colin.S.McCaleb is a Chicago-based developer interested in the intersections of <b>programming</b>, data privacy, and global sustainability.</h1>
 <img src = "../assets/images/profile.jpg" width="200" style="opacity:0.9; display: none;"> 
@@ -15,7 +20,7 @@
   <div *ngFor="let post of posts">
     <h3>{{post.title}}</h3>
  <p>{{post.subTitle}}</p>
- <button mat-stroked-button>More</button>
+ <button mat-stroked-button id = {{post.id}}>More</button>
   </div>
 </div>
 
