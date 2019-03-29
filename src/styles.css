@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 html, body { height: 100%; padding:1em;}
 body { margin: 0; font-family: 'PT Sans', sans-serif; max-width: 900px;}
 h1, h2, h3 { 
@@ -24,5 +23,14 @@ p {
     font-style: italic;
     opacity:0.5;
     font-family: 'PT Serif', serif;
+}
+
+
+.mat-stroked-button {
+    border-radius: 0px !important;
+    border-color: #000 !important;
+    border-width: 2px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
 }
 

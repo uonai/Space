@@ -12,7 +12,7 @@ export class PostComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.post);
+    // console.log(this.post);
   }
 
   updateButtonState() {

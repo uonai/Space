@@ -9,16 +9,6 @@ li{
     float: left;
 }
 
-
-.mat-stroked-button {
-    text-align: right;
-    border-radius: 0px;
-    border-color: #000;
-    border-width: 2px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 @media (min-width: 600px) {
 
 .pulse-container {
