@@ -4,8 +4,11 @@ html, body { height: 100%; padding:1em;}
 body { margin: 0; font-family: 'PT Sans', sans-serif; max-width: 900px;}
 h1, h2, h3 { 
     letter-spacing: 1px;     
-    border-bottom: 2px solid #000;
     padding-bottom: 0.5em;
     margin-top: 2em;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #000;
 }
 
