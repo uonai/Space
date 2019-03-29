@@ -1,0 +1,18 @@
+.subtext{
+    font-style: italic;
+    opacity:0.3;
+    font-family: 'PT Serif', serif;
+}
+
+.mat-stroked-button {
+    text-align: right;
+    border-radius: 0px;
+    border-color: #000;
+    border-width: 2px;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+}
+
+
