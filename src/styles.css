@@ -20,3 +20,9 @@ p {
     font-family: 'PT Serif', serif;
 }
 
+.subtext{
+    font-style: italic;
+    opacity:0.5;
+    font-family: 'PT Serif', serif;
+}
+

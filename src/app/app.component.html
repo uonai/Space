@@ -15,14 +15,9 @@
 <span class="subtext">Space: a continuous area or expanse which is free, available, or unoccupied.</span>
 <img src = "../assets/images/profile.jpg" width="200" style="opacity:0.9; display: none;"> 
 <h2>Current Projects:</h2>
-<p>Here are a list of projects I've been working on from 2018 - present.</p>
-
-<div class="posts">
-  <div *ngFor="let post of posts">
-    <h3>{{post.title}}</h3>
- <p>{{post.subTitle}}</p>
- <button mat-stroked-button id = {{post.id}}>More</button>
-  </div>
+<p>Below are a list of projects I've been working on from 2018 - present. My primary focus from a technology standpoint is JavaScript (Front-End Frameworks, NodeJS, and ES6), and C#/ASP.NET. I focus on cloud technologies professionally and have a novice interest in decentralized solutions.</p>
+<div *ngFor="let post of posts">
+<app-post [title]="post.title" [subTitle]="post.subTitle" [id]="post.id"></app-post>
 </div>
 
 <h2>Social Links:</h2>
