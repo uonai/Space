@@ -31,7 +31,7 @@
        "title":"Hydra",
        "date":"2018 - present",
        "state":"Private Beta",
-       "subTitle":"An IoT cloud platform (Technologies: Angular, .NET, Azure Cloud)",
+       "subTitle":"An IoT cloud platform",
        "postDetails":"Collects data from remote sensors, automation tools and other systems by leveraging Microsoft’s secure Azure cloud platform.",
        "link":"https://newsroom.accenture.com/news/nalco-champion-teams-with-accenture-and-microsoft-to-launch-digital-platform-for-downstream-oil-and-gas-customers.htm",
        "imageURL":"",
@@ -41,6 +41,9 @@
           },
           {  
              "technology":".NET / C#"
+          },
+          {  
+            "technology":"Azure Cloud"
           }
        ]
     },
