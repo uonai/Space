@@ -52,6 +52,7 @@
        "subTitle":"A dashboard for showing real-time fitness gains",
        "postDetails":"Over the past two seasons, I have been taking daily notes on my exercise progress. I'm converting these notes into an Angular dashboard with a CRUD WebApp for data entry.",
        "link":"",
+       "imageUrl": "",
        "technologies":[  
           {  
              "technology":"Angular"
@@ -72,6 +73,7 @@
         "subTitle":"A collection of knowledge.",
         "postDetails":"Codex is my public Wiki. In it I take programming notes, jot down relevant links, add bits of philosophy, and recipes as well.",
         "link":"https://github.com/uonai/Codex",
+        "imageUrl": "",
         "technologies":[  
            {  
               "technology":"GitHub"

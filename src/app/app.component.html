@@ -10,7 +10,7 @@
   <span class ="subtext">{{coordinates}}</span>
 </div>
 
-<h1>Colin.S.McCaleb is a Chicago-based full-stack developer working at the intersection of Cloud Application Development, IoT, and Distributed Systems.</h1>
+<h1>Colin.S.McCaleb is a Chicago-based full-stack developer working at the intersection of Cloud Application Development, Cyber-Ecology, and Distributed Systems.</h1>
 <span class="subtext">Uonai: tr.(Lojban) Incompleteness</span><br />
 <span class="subtext">Space: a continuous area or expanse which is free, available, or unoccupied.</span>
 <img src = "../assets/images/profile.jpg" width="200" style="opacity:0.9; display: none;"> 
@@ -22,7 +22,9 @@
 <div class="social">
 <h2>Social Links</h2>
   <ul>
-    <li *ngFor="let socialNetwork of socialNetworks"><a href="{{socialNetwork.link}}" mat-stroked-button>{{socialNetwork.title}}</a></li>
+    <li *ngFor="let socialNetwork of socialNetworks">
+      <a href="{{socialNetwork.link}}" mat-stroked-button>{{socialNetwork.title}}</a>
+    </li>
   </ul>
 </div>
 

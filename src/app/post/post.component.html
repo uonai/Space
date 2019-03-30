@@ -9,13 +9,12 @@
       <p><span class="post-bold">Project Details: </span>{{post.postDetails}}</p>
       <h4>Technologies:</h4>
         <ul>
-            <li *ngFor="let item of post.technologies">{{item.technology}}</li>
+          <li *ngFor="let item of post.technologies">{{item.technology}}</li>
         </ul>
       <div *ngIf="post.link">
       <p><span class="post-bold">External Link: </span><span><a href="{{post.link}}">{{post.link}}</a></span></p>
     </div>
       <img src="{{post.imageURL}}" class="post-image">
-
     </div>
   
     <button mat-stroked-button id = {{post.id}} (click)="updateButtonState()">{{this.buttonText}}</button>

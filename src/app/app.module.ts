@@ -14,8 +14,8 @@ import { PostComponent } from './post/post.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatExpansionModule
-
+    MatExpansionModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

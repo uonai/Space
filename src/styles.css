@@ -15,6 +15,14 @@ h2, h3 {
     margin-top: 2em;
 }
 
+h4{
+    letter-spacing:1px;
+}
+
+a {
+    color:#000 !important;
+}
+
 p {
     font-family: 'PT Serif', serif;
 }
