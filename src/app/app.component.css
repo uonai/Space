@@ -1,5 +1,10 @@
+.main-container {
+    width:800px; 
+    margin:auto;
+}
+
 ul {
-    padding: 0 0 2em 0;
+    padding: 0 0 4em 0;
     margin: 0;
 }
 li{
@@ -7,6 +12,10 @@ li{
     padding-right: 1em;
     padding-bottom: 1em;
     float: left;
+}
+
+.social{
+    padding-bottom:2em;
 }
 
 @media (min-width: 600px) {

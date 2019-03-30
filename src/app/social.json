@@ -1,9 +1,24 @@
 { 
     "socialNetworks": [
         {
-            "id": 1,
             "title": "GitHub",
-            "link": "https://www.patreon.com/posts/introducing-u-25466849"
+            "link": "https://github.com/uonai"
+        },
+        {
+            "title": "Twitter",
+            "link": "https://twitter.com/uonaiii"
+        },
+        {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/colinmccaleb/"
+        },       
+        {
+            "title": "Webring",
+            "link": "https://webring.xxiivv.com/"
+        },
+        {
+            "title": "YouTube",
+            "link": "https://www.youtube.com/channel/UC53uk5YBbtA1neGW2yYDtEA"
         }
     ]
 }

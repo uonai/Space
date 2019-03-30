@@ -12,6 +12,7 @@ export class AppComponent {
   posts = PostData.posts;
   socialNetworks = SocialData.socialNetworks;
   title = 'uonai';
+  coordinates = 'Lat/Long: 41.974489, -87.689457';
 
   // tslint:disable-next-line:use-life-cycle-interface
   ngOnInit() {
