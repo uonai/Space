@@ -24,6 +24,11 @@
             "id": 5,
             "title": "YouTube",
             "link": "https://www.youtube.com/channel/UC53uk5YBbtA1neGW2yYDtEA"
+        },
+        {
+            "id": 6,
+            "title": "Are.na",
+            "link": "https://www.are.na/uonai"
         }
     ]
 }
