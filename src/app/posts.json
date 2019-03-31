@@ -1,6 +1,25 @@
-{ "posts": [  
+{ "posts": [ 
     {  
-       "id":1,
+        "title":"Riverstone",
+        "date":"2019 - present",
+        "state":"In Development",
+        "subTitle":"An IoT environment sensor.",
+        "postDetails":"Riverstone is an initiative to begin monitoring and collecting data on temperature, toxicity, and air quality.",
+        "link":"https://github.com/uonai/Riverstone",
+        "imageURL":"../assets/images/riverstone.jpg",
+        "technologies":[  
+         {  
+             "technology":"C++"
+          },
+          {  
+             "technology":"IoT"
+          },
+          {  
+            "technology":"Spark"
+          }
+        ]
+     }, 
+    {  
        "title":"Uppakoma",
        "date":"2018 - present",
        "state":"In Development",
@@ -27,11 +46,10 @@
        ]
     },
     {  
-       "id":2,
        "title":"Hydra",
        "date":"2018 - present",
        "state":"Private Beta",
-       "subTitle":"An IoT cloud platform",
+       "subTitle":"An IoT cloud platform.",
        "postDetails":"Collects data from remote sensors, automation tools and other systems by leveraging Microsoft’s secure Azure cloud platform.",
        "link":"https://newsroom.accenture.com/news/nalco-champion-teams-with-accenture-and-microsoft-to-launch-digital-platform-for-downstream-oil-and-gas-customers.htm",
        "imageURL":"",
@@ -48,11 +66,10 @@
        ]
     },
     {  
-       "id":3,
        "title":"Vitae",
        "date":"2019 - present",
        "state":"In Development",
-       "subTitle":"A dashboard for showing real-time fitness gains",
+       "subTitle":"A dashboard for showing strength gains over time.",
        "postDetails":"Over the past two seasons, I have been taking daily notes on my exercise progress. I'm converting these notes into an Angular dashboard with a CRUD WebApp for data entry.",
        "link":"",
        "imageUrl": "",
@@ -69,7 +86,6 @@
        ]
     },
     {  
-        "id":4,
         "title":"Codex",
         "date":"2018",
         "state":"Ongoing",
@@ -87,7 +103,6 @@
         ]
      },
     {  
-        "id":5,
         "title":"Banxre",
         "date":"2018",
         "state":"Complete",
@@ -108,7 +123,6 @@
         ]
      },
     {  
-        "id":6,
         "title":"Tome",
         "date":"2018",
         "state":"Complete",
@@ -123,7 +137,6 @@
         ]
      },
     {  
-        "id":7,
         "title":"Sifr",
         "date":"2018",
         "state":"Complete, Deprecated",
