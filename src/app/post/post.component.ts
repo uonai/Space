@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./post.component.css']
 })
 export class PostComponent implements OnInit {
-  @Input() post = [];
+  @Input() post: any = [];
   showPost:boolean = false;
   buttonText = 'More';
   constructor() { }
