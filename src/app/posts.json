@@ -3,8 +3,8 @@
         "title":"Riverstone",
         "date":"2019 - present",
         "state":"In Development",
-        "subTitle":"An IoT environment sensor.",
-        "postDetails":"Riverstone is an initiative to begin monitoring and collecting data on temperature, toxicity, and air quality.",
+        "subTitle":"A mesh network of environment sensors.",
+        "postDetails":"Riverstone is an initiative to begin monitoring and collecting data on temperature, toxicity, and air quality using a low energy localized mesh network.",
         "link":"https://github.com/uonai/Riverstone",
         "imageURL":"../assets/images/riverstone.jpg",
         "technologies":[  
@@ -12,10 +12,16 @@
              "technology":"C++"
           },
           {  
-             "technology":"IoT"
+             "technology":"Microcontrollers"
           },
           {  
             "technology":"Spark"
+          },
+          {
+            "technology":"Azure IoT"
+          },
+          {
+            "technology":"Mesh Networking"
           }
         ]
      }, 
