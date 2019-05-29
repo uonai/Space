@@ -29,6 +29,11 @@
             "id": 6,
             "title": "Are.na",
             "link": "https://www.are.na/uonai"
+        },
+        {
+            "id": 7,
+            "title": "Twitch",
+            "link": "https://www.twitch.tv/uonai"
         }
     ]
 }
