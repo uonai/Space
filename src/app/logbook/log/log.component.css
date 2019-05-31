@@ -1,0 +1,21 @@
+.post-image{
+    width:100%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: filter 0.5s;
+    margin-bottom:1em;
+}
+
+.post-image:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    transition: filter 0.5s;
+}
+
+.post-bold{
+    font-weight: 900;
+}
+
+li {
+    font-family: 'PT Serif', serif;
+}

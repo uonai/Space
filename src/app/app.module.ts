@@ -4,18 +4,26 @@ import { MatButtonModule, MatListModule, MatExpansionModule } from '@angular/mat
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PostComponent } from './post/post.component';
+import { RouterModule } from '@angular/router';
+import { MainComponent } from './main/main.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostComponent
+    PostComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatExpansionModule,
-    MatListModule
+    MatListModule,
+    RouterModule.forRoot([
+      {path: '', component: AppComponent, pathMatch: 'full'},
+      {path: 'logbook', loadChildren: './logbook/logbook.module#LogBookMainModule'},
+    ], {initialNavigation: 'enabled'})
   ],
   providers: [],
   bootstrap: [AppComponent]

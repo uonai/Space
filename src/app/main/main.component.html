@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div class = "main-container">
+  <div class = "top-container">
+  <div class= "pulse-container">
+    <div class="dot"></div>
+    <div class="pulse"></div>
+  </div>
+  <span class ="subtext">{{coordinates}}</span>
+</div>
+<h1>Colin.S.McCaleb is a Chicago-based full-stack developer working at the intersection of Cloud Application Development, Cyber-Ecology, and Distributed Systems.</h1>
+<span class="subtext">Uonai: tr.(Lojban) Incompleteness</span><br />
+<span class="subtext">Space: a continuous area or expanse which is free, available, or unoccupied.</span>
+<h2>Current Projects</h2>
+<p>Below are a list of projects I've been working on from 2018 - present. My primary focus from a technology standpoint is JavaScript (Front-End Frameworks, NodeJS, and ES6), and C#/ASP.NET. Professionally, I specialize in Microsoft Azure technologies, web application development, and cloud architecture. I have a hobbyist interest in decentralized solutions, open source operating systems, solar energy, and IoT.</p>
+<div *ngFor="let post of posts">
+<app-post [post]="post"></app-post>
+</div>
+<div class="social">
+<h2>Social Links</h2>
+  <ul>
+    <li *ngFor="let socialNetwork of socialNetworks">
+      <a href="{{socialNetwork.link}}" mat-stroked-button>{{socialNetwork.title}}</a>
+    </li>
+  </ul>
+</div>
+
+
