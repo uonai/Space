@@ -18,15 +18,17 @@ export class LogComponent implements OnInit, OnDestroy {
   notFound = false;
 
   constructor(private route: ActivatedRoute,  private sanitizer: DomSanitizer) {
-
+    console.log('consturctor ran');
   }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(async (params) => {
       this.postId = params['id'];
-      this.post =  './assets/logs/post/' + this.postId + '.md';
+      this.post =  './assets/logbook/logs/' + this.postId + '.md';
 
     });
+    console.log(this.sub);
+    console.log(this.postId);
   }
 
   ngOnDestroy() {

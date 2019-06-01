@@ -3,12 +3,13 @@ import {RouterModule} from '@angular/router';
 import {CommonModule} from '@angular/common';
 import {LogComponent} from './log.component';
 import {MarkdownModule} from 'ngx-markdown';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [LogComponent],
   imports: [
     CommonModule,
-    // LogComponent,
+    MatButtonModule,
     RouterModule.forChild([
       { path: '', component: LogComponent},
       { path: ':id', component: LogComponent, pathMatch: 'full'}

@@ -1,3 +1,13 @@
+<header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <a routerLink="/logbook" mat-stroked-button>Return To Logbook</a>
+      </div>
+    </div>
+  </div>
+</header>
 <article>
     <div class="container">
       <div class="row">
@@ -5,9 +15,6 @@
           <div markdown [src]="post" class="post" (error)="onError($event)"></div>
 
           <div class="post-not-found" *ngIf="notFound">
-            <div class="d-flex justify-content-center">
-              <fa-icon [icon]="['fal', 'sad-cry']"></fa-icon>
-            </div>
             <div class="d-flex justify-content-center">
               <p>Oops, the requested blog post was not found</p>
             </div>
