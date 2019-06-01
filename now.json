@@ -1,12 +1,9 @@
 {
-    "version": 2,
+    "version": 1,
     "name": "uonai.space",
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@now/static-build"
-      }
-    ],
+    "engines": {
+      "node": "^10.9"
+    },
     "routes": [
       {
         "src": "/(assets/.+|.+\\.css|.+\\.js)",
