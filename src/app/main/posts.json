@@ -1,5 +1,22 @@
-{ "posts": [ 
-    {  
+{ "posts": [
+  {
+      "title":"Logbook",
+      "date":"2019 - present",
+      "state":"Live",
+      "subTitle":"Updates from the cabin.",
+      "postDetails":"To document life, ideas, and to write on the processes I'm working out.",
+      "link":"https://uonai.space/logbook",
+      "imageURL":"",
+      "technologies":[
+      {
+          "technology":"Angular"
+        },
+        {
+          "technology":"Markdown"
+        }
+      ]
+    },
+    {
         "title":"Riverstone",
         "date":"2019 - present",
         "state":"In Development",
@@ -7,14 +24,14 @@
         "postDetails":"Riverstone is an initiative to begin monitoring and collecting data on temperature, toxicity, and air quality using a low energy localized mesh network.",
         "link":"https://github.com/uonai/Riverstone",
         "imageURL":"../assets/images/riverstone.jpg",
-        "technologies":[  
-         {  
+        "technologies":[
+         {
              "technology":"C++"
           },
-          {  
+          {
              "technology":"Microcontrollers"
           },
-          {  
+          {
             "technology":"Spark"
           },
           {
@@ -24,8 +41,8 @@
             "technology":"Mesh Networking"
           }
         ]
-     }, 
-    {  
+     },
+    {
        "title":"Uppakoma",
        "date":"2018 - present",
        "state":"In Development",
@@ -33,25 +50,25 @@
        "postDetails":"Uppakoma is a group initiative with ΛERIF°RM to build out a global events app with a focus on the spontaneous, prioritising events happening right now",
        "link":"https://www.patreon.com/posts/introducing-u-25466849",
        "imageURL":"../assets/images/uppakoma.png",
-       "technologies":[  
-        {  
+       "technologies":[
+        {
             "technology":"ReactNative"
          },
-         {  
+         {
             "technology":".NET / C#"
          },
-         {  
+         {
            "technology":"Azure"
          },
-         {  
+         {
            "technology":"CosmosDB"
          },
-         {  
+         {
             "technology":"MongoDB"
          }
        ]
     },
-    {  
+    {
        "title":"Hydra",
        "date":"2018 - present",
        "state":"Private Beta",
@@ -59,19 +76,19 @@
        "postDetails":"Collects data from remote sensors, automation tools and other systems by leveraging Microsoft’s secure Azure cloud platform.",
        "link":"https://newsroom.accenture.com/news/nalco-champion-teams-with-accenture-and-microsoft-to-launch-digital-platform-for-downstream-oil-and-gas-customers.htm",
        "imageURL":"",
-       "technologies":[  
-          {  
+       "technologies":[
+          {
              "technology":"Angular"
           },
-          {  
+          {
              "technology":".NET / C#"
           },
-          {  
+          {
             "technology":"Azure Cloud"
           }
        ]
     },
-    {  
+    {
        "title":"Vitae",
        "date":"2019 - present",
        "state":"In Development",
@@ -79,19 +96,19 @@
        "postDetails":"Over the past two seasons, I have been taking daily notes on my exercise progress. I'm converting these notes into an Angular dashboard with a CRUD WebApp for data entry.",
        "link":"",
        "imageUrl": "",
-       "technologies":[  
-          {  
+       "technologies":[
+          {
              "technology":"Angular"
           },
-          {  
+          {
              "technology":".NET / C#"
           },
-          {  
+          {
              "technology":"SQL Server"
           }
        ]
     },
-    {  
+    {
         "title":"Codex",
         "date":"2018",
         "state":"Ongoing",
@@ -99,16 +116,16 @@
         "postDetails":"Codex is my public Wiki. In it I take programming notes, jot down relevant links, add bits of philosophy, and recipes as well.",
         "link":"https://github.com/uonai/Codex",
         "imageUrl": "",
-        "technologies":[  
-           {  
+        "technologies":[
+           {
               "technology":"GitHub"
            },
-           {  
+           {
               "technology":"MarkDown"
            }
         ]
      },
-    {  
+    {
         "title":"Banxre",
         "date":"2018",
         "state":"Complete",
@@ -116,19 +133,19 @@
         "postDetails":"Multiple database files compile into a single JSON file runtime which allows you to use JSON server for large, complex data sets.",
         "link":"https://github.com/uonai/Banxre",
         "imageURL":"https://raw.githubusercontent.com/uonai/Banxre/master/screen.png",
-        "technologies":[  
-           {  
+        "technologies":[
+           {
               "technology":"NodeJS"
            },
-           {  
+           {
               "technology":"JSONServer"
            },
-           {  
+           {
               "technology":"RESTful API"
            }
         ]
      },
-    {  
+    {
         "title":"Tome",
         "date":"2018",
         "state":"Complete",
@@ -136,13 +153,13 @@
         "postDetails":"TOME is a file extension for Neauoire's markup language Runic. Elements from hash/array database Indental have been added as well. TOME can be used for serverless applications to store local databases within JavaScript. The syntax highlighter for SublimeText3 included in this folder (tome.sublime-syntax) establishes visual heirarchy by identifying top level items and Runic characters.",
         "link":"https://github.com/uonai/Tome",
         "imageURL":"https://raw.githubusercontent.com/uonai/Tome/master/sample.png",
-        "technologies":[  
-           {  
+        "technologies":[
+           {
               "technology":"SublimeText"
            }
         ]
      },
-    {  
+    {
         "title":"Sifr",
         "date":"2018",
         "state":"Complete, Deprecated",
@@ -150,11 +167,11 @@
         "postDetails":"The purpose of this application is to get an understanding of fundamental principles of encryption, specifically in Microsoft Technologies.",
         "link":"https://github.com/uonai/Sifr",
         "imageURL":"../assets/images/sifr.jpg",
-        "technologies":[  
-           {  
+        "technologies":[
+           {
               "technology":"C#"
            },
-           {  
+           {
               "technology":"Windows Forms"
            }
         ]

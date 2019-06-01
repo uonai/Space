@@ -1,0 +1,9 @@
+
+:host h2, h3{
+  text-decoration:none;
+  font-size:5em;
+}
+
+:host a {
+  text-decoration: none;
+}
