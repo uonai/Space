@@ -12,6 +12,7 @@ export class LogComponent implements OnInit, OnDestroy {
   private sub: Subscription;
 
   post: string;
+  private postId: string;
 
   constructor(private route: ActivatedRoute) {
 
@@ -19,8 +20,10 @@ export class LogComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
-      this.post = './assets/blog/post/' +  params['id'] + '.md';
+      this.postId = params['id'];
+      this.post = './assets/logs/post/' +  this.postId + '.md';
     });
+    console.log(this.post);
   }
 
   ngOnDestroy() {
