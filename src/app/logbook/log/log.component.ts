@@ -1,4 +1,4 @@
-import { OnInit, OnDestroy, Component } from '@angular/core';
+import { OnInit, OnDestroy, Component, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import {DomSanitizer, Meta, SafeUrl} from '@angular/platform-browser';
@@ -6,7 +6,8 @@ import {DomSanitizer, Meta, SafeUrl} from '@angular/platform-browser';
 @Component({
   selector: 'app-log',
   styleUrls: ['./log.component.css'],
-  templateUrl: './log.component.html'
+  templateUrl: './log.component.html',
+  encapsulation: ViewEncapsulation.None
 })
 export class LogComponent implements OnInit, OnDestroy {
 

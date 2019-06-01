@@ -4,10 +4,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <a routerLink="/" mat-stroked-button>Return Home</a>
+        <a routerLink="/" mat-stroked-button style="margin-top:2em;">✖ Close Logbook</a>
         <div class="site-heading">
           <h1>The Logbook</h1>
-          <p>To document life, ideas, and processes.</p>
         </div>
       </div>
     </div>
@@ -18,9 +17,7 @@
 <div class="container blog-summary">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
-
-      <div markdown [src]="'./assets/logbook/log1.md'" class="post"></div>
-
+      <div markdown [src]="'./assets/logbook/log1.md'" class="logbook-post"></div>
     </div>
   </div>
 </div>
