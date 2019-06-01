@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "name": "uonai.space",
     "builds": [
       {
@@ -7,9 +7,6 @@
         "use": "@now/static-build"
       }
     ],
-    "engines": {
-      "node": "^10.9"
-    },
     "routes": [
       {
         "src": "/(assets/.+|.+\\.css|.+\\.js)",
