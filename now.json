@@ -7,6 +7,9 @@
         "use": "@now/static-build"
       }
     ],
+    "engines": {
+      "node": "^10.9"
+    },
     "routes": [
       {
         "src": "/(assets/.+|.+\\.css|.+\\.js)",
@@ -25,4 +28,3 @@
       }
     ]
   }
-  
