@@ -8,8 +8,8 @@ import {MarkdownModule} from 'ngx-markdown';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      {path: '', pathMatch: 'full', loadChildren: () => import('./logbook/logbook.module').then(m => m.LogBookModule)},
-      {path: 'post', loadChildren: () => import('./log/log.module').then(m => m.LogModule)},
+      {path: '', pathMatch: 'full', loadChildren: './logbook/logbook.module#LogBookModule'},
+      {path: 'post', loadChildren: './log/log.module#LogModule'},
     ]),
     MarkdownModule.forRoot()
   ]

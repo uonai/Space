@@ -10,7 +10,6 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 export class LogBookComponent implements OnInit {
 
   ngOnInit() {
-    console.log('logbook ran');
   }
 
 

@@ -39,7 +39,8 @@ const routes: Routes = [
     MarkdownModule.forRoot({ loader: HttpClient }),
     RouterModule.forRoot([
       {path: '', component: MainComponent, pathMatch: 'full'},
-      {path: 'logbook', loadChildren: () => import('./logbook/logbook.module').then(m => m.LogBookMainModule)},
+      {path: 'logbook', loadChildren: './logbook/logbook.module#LogBookModule'},
+      {path: '**', redirectTo: ''}
     ], {initialNavigation: 'enabled'})
   ],
   providers: [],
