@@ -1,10 +1,10 @@
 # What and Why?
 
-This is a logbook. To document life, ideas, and to write on the processes I'm working out. I'm trying to become a better programmer, a more open thinker, a bit more environmentally conscious, and more open in general. This logbook will contain somewhat random updates, tiny beams of light to the outside world whenever I have the time and comfort to write them.
+Welcome to my logbook. Here I'll be writing on life, ideas, and processes that I find interesting. I'm trying to become a better programmer, an open thinker, better educated on environmental conservation, and more generally focused on developing expertise around my odd, niche interests. This logbook will contain somewhat random updates, tiny beams of light to the outside world whenever I have the time and comfort to write them.
 
-I like the mantra "strong opinions, loosely held", as it provides a much needed framework for personal growth. My opinions change with frequency, so keep in mind that just because I've written it here, doesn't mean I still believe it to be true.
+I like the mantra "strong opinions, loosely held," as it provides a much needed framework for valuing your own views, along with the views of others. My opinions change with frequency, so keep in mind that just because I've written it here, doesn't mean that I still believe it to be true.
 
-I tend to get theoretical, and I use writing as a tool to boil down theory into actual real pragmatic solutions. If this logbook ends up as theory, then I'm doing it wrong.  
+I tend to get theoretical, and I use writing as a tool to boil down theory into real pragmatic solutions. If this logbook ends up as theory for the sake of theory, then I'm doing it wrong.  
 
 The logbook will not be chasing big ideas, it will not be a publishing spot for narcissistic manifestos, and most of all it will not be a place where I explore cultural or political commentary. This is my umpteenth blog and I've spent so much time thinking about "big ideas" that it's really time to take a break. I'm finding that smaller ideas are much more fun to solve. The hunt for meaning, morality, truth, etc. would have been figured out long ago if they were in any way solvable. 
 

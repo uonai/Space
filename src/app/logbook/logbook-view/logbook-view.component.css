@@ -1,3 +1,7 @@
 .logbook-post a{
   text-transform:uppercase;
 }
+
+.log-summary a{
+  text-decoration: none !important;
+}
