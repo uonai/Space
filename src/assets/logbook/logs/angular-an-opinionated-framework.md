@@ -38,4 +38,4 @@ I also spent time watching the [Pluralsight tutorials](https://www.pluralsight.c
 For general JavaScript, I recommend [JavaScript: The Good Parts](https://www.amazon.com/dp/0596517742/ref=cm_sw_r_cp_apa_i_xEO9CbND6C5MT). Crockford writes in a concise, weird, and entertaining way that is a rarity in the programming world.
 
 ## Onward
-Thanks for reading, and I hope you come back
+Thanks for reading, and I hope you come back!
