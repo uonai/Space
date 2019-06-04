@@ -1,4 +1,4 @@
-# Angular, an Opinionated Platform
+# Angular, an Opinionated Framework
 Someday I aim to design and build frameworks and languages from the ground up. For now, I enjoy studying and using what has already exists. Developers put a lot of time into building frameworks, and I learn so many new concepts and thinking styles each time I implement a new framework.
 
 My current passion is kitbashing: taking frameworks that others have built, studying the features, limitations, bugs, and caveats and pushing the limits of the kits. At some point in the near or far-out future, I'll become frustrated (or enlightened!) with kitbashing. At that point I'll build my own framework. Until then, I'm enjoying where I'm at, studying and using existing frameworks and codebases to build my projects.
