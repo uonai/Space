@@ -26,8 +26,8 @@ For smaller projects and passion projects, TypeScript and Angular may not be the
 Since I have been working in Angular for two years, I'm finding that my JavaScript is getting rusty. If I had to pivot over to ES6, Vue, or React, it would be difficult. What is nice, particularly about React and Vue is that you have the ability to use traditional JavaScript to build features. This can get quite messy, but it lets you grow as a developer and explore less rigid coding styles. One of my goals now is to build a personal project using ES6 so I can keep up to date there. Angular isn't going away any time soon but I want to make sure my skillset isn't too narrow. Plus, I enjoy and miss regular old JavaScript
 
 ## What I'm excited about for Angular's future:
-- Angular Ivy: faster build times and smaller overall file size. One of the current limitations of Angular is the relatively large file size of the compiled webapp. A comparison of frontend frameworks can be found [here](https://www.freecodecamp.org/news/a-real-world-comparison-of-front-end-frameworks-with-benchmarks-2018-update-e5760fb4a962/)
-- [Nest.js](https://nestjs.com) is a typescript framework for building NodeJS microservices and pairs well with Angular. My current focus for backend and API development is ASP.NET paired with Azure Functions, but Nest seems to be a trustworthy Node.JS alternative that I plan on exploring a bit.
+* Angular Ivy: faster build times and smaller overall file size. One of the current limitations of Angular is the relatively large file size of the compiled webapp. A comparison of frontend frameworks can be found [here](https://www.freecodecamp.org/news/a-real-world-comparison-of-front-end-frameworks-with-benchmarks-2018-update-e5760fb4a962/)
+* [Nest.js](https://nestjs.com) is a typescript framework for building NodeJS microservices and pairs well with Angular. My current focus for backend and API development is ASP.NET paired with Azure Functions, but Nest seems to be a trustworthy Node.JS alternative that I plan on exploring a bit.
 
 ## Recommended Reading
 To learn Angular, I read [Ng-Book, The Complete Book on Angular](https://www.ng-book.com/2/)
