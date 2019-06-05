@@ -10,6 +10,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from './main/main.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
+import { VitaeComponent } from './vitae/vitae.component';
+import { VitaeAdminComponent } from './vitae/vitae-admin/vitae-admin.component';
+import { VitaeDashboardComponent } from './vitae/vitae-dashboard/vitae-dashboard.component';
 
 const routes: Routes = [
   {
@@ -27,7 +30,10 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     PostComponent,
-    MainComponent
+    MainComponent,
+    VitaeComponent,
+    VitaeAdminComponent,
+    VitaeDashboardComponent
   ],
   imports: [
     BrowserModule,
