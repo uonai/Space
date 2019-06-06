@@ -14,6 +14,10 @@ li{
   float: left;
 }
 
+.nav-button {
+  margin-right: 1em !important;
+}
+
 .social{
   padding-bottom:2em;
 }
