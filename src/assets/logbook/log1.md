@@ -6,6 +6,10 @@ Posted by [Colin](cs.mccaleb@gmail.com) on June 01, 2019
 Some day I aim to design and build frameworks and languages from the ground up. For now, I enjoy studying and using what has already exists. Developers put a lot of time into building frameworks, and I learn so many new concepts and thinking styles each time I implement a new framework.
 Posted by [Colin](cs.mccaleb@gmail.com) on June 04, 2019
 #### [Read More](/logbook/logs/angular-an-opinionated-framework)
+### [Rust and WebAssembly](/logbook/logs/rust-and-webassembly)
+I've been yelling at clouds for some time about how Rust is  just another trend. In many conversations I have claimed that Rust will fade into  obscurity like most other niche programming  languages. But here I am learning it and reading the book. 
+Posted by [Colin](cs.mccaleb@gmail.com) on June 11, 2019
+#### [Read More](/logbook/logs/rust-and-webassembly)
 
 
 
