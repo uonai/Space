@@ -52,12 +52,12 @@
        ]
     },
     {
-       "title":"Hydra",
-       "date":"2018 - present",
-       "state":"Private Beta",
+       "title":"Ecolab3D",
+       "date":"2018 - 2019",
+       "state":"Public",
        "subTitle":"An IoT cloud platform.",
-       "postDetails":"Collects data from remote sensors, automation tools and other systems by leveraging Microsoft’s secure Azure cloud platform.",
-       "link":"https://newsroom.accenture.com/news/nalco-champion-teams-with-accenture-and-microsoft-to-launch-digital-platform-for-downstream-oil-and-gas-customers.htm",
+       "postDetails":"Collects 90 billion data points from remote sensors, automation tools and other systems and leverages Microsoft’s secure Azure cloud platform.",
+       "link":"https://www.businesswire.com/news/home/20190904005185/en/Ecolab-Launches-ECOLAB3D%E2%84%A2-Cloud-Platform-Enterprise-Wide-Industrial",
        "imageURL":"",
        "technologies":[
           {
