@@ -1,6 +1,11 @@
 { 
     "socialNetworks": [
         {
+            "id": 0,
+            "title": "Blog",
+            "link": "https://reading.supply/@uonaiii"
+        },
+        {
             "id": 1,
             "title": "GitHub",
             "link": "https://github.com/uonai"
@@ -29,11 +34,6 @@
             "id": 6,
             "title": "Are.na",
             "link": "https://www.are.na/uonai"
-        },
-        {
-            "id": 7,
-            "title": "Twitch",
-            "link": "https://www.twitch.tv/uonai"
         }
     ]
 }
