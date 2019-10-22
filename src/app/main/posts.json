@@ -72,22 +72,19 @@
        ]
     },
     {
-       "title":"Vitae",
+       "title":"Fortunae",
        "date":"2019 - present",
        "state":"In Development",
-       "subTitle":"A dashboard for showing strength gains over time.",
-       "postDetails":"Over the past two seasons, I have been taking daily notes on my exercise progress. I'm converting these notes into an Angular dashboard with a CRUD WebApp for data entry.",
+       "subTitle":"A personal finance app.",
+       "postDetails":"This is a desktop app for budgeting, setting goals, and analyzing personal financial progress.",
        "link":"",
        "imageUrl": "",
        "technologies":[
           {
-             "technology":"Angular"
+             "technology":"Vue"
           },
           {
-             "technology":".NET / C#"
-          },
-          {
-             "technology":"SQL Server"
+             "technology":"Electron"
           }
        ]
     },
