@@ -34,6 +34,11 @@
             "id": 6,
             "title": "Are.na",
             "link": "https://www.are.na/uonai"
+        },
+        {
+            "id": 7,
+            "title": "VSCO",
+            "link": "https://vsco.co/uonai/"
         }
     ]
 }
