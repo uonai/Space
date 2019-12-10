@@ -12,26 +12,16 @@
         },
         {
             "id": 2,
-            "title": "Twitter",
-            "link": "https://twitter.com/uonaiii"
-        },
-        {
-            "id": 3,
             "title": "LinkedIn",
             "link": "https://www.linkedin.com/in/colinmccaleb/"
         },       
         {
-            "id": 4,
+            "id": 3,
             "title": "Webring",
             "link": "https://webring.xxiivv.com/"
         },
         {
-            "id": 5,
-            "title": "Are.na",
-            "link": "https://www.are.na/uonai"
-        },
-        {
-            "id": 6,
+            "id": 4,
             "title": "VSCO",
             "link": "https://vsco.co/uonai/"
         }
